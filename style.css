@@ -1,0 +1,135 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background:linear-gradient(135deg,#153677,#4e085f); 
+} 
+
+
+.todo-app{
+    background: white;
+    max-width: 540px;
+    width: 100%;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    
+    border-radius: 10px;
+    border: 3px solid rgb(253, 5, 21);
+
+}
+.todo-app h2{
+    background:white;
+    color: aqua;
+     display:flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 10px 10px 0;
+    display: inline;
+
+
+}
+.todo-app img{
+    background:white;
+    height: 45px;
+    width:40px ;
+    margin-left: 10px;
+    justify-content: right;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    color: red;
+    /* background-color: white; */
+
+/* 
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+button{
+    background: transparent;
+    background-color: rgb(255, 162, 0);
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    cursor: pointer;
+    font-size: 18px;
+    
+} 
+ul li{
+    background: white;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+} */
+
+body{
+    background-color: rgb(4, 29, 29);
+    font-family: 'Poppins', sans-serif;
+ }
+ .container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+
+
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+ }
+ .text ul{
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+
+
+
+
+
